@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C928641A2A530FAF00E85DA7 /* NaverWebToon_ViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92864192A530FAF00E85DA7 /* NaverWebToon_ViewApp.swift */; };
+		C928641C2A530FAF00E85DA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928641B2A530FAF00E85DA7 /* ContentView.swift */; };
+		C928641E2A530FB000E85DA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C928641D2A530FB000E85DA7 /* Assets.xcassets */; };
+		C92864212A530FB000E85DA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C92864202A530FB000E85DA7 /* Preview Assets.xcassets */; };
+		C928642A2A532A5200E85DA7 /* WebtoonInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92864292A532A5200E85DA7 /* WebtoonInformationView.swift */; };
+		C928642E2A532A9D00E85DA7 /* DayWebtoonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928642D2A532A9D00E85DA7 /* DayWebtoonListView.swift */; };
+		C9F56BA82A5876BF00BFA138 /* DaySelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F56BA72A5876BF00BFA138 /* DaySelectView.swift */; };
+		C9F56BAA2A587A3200BFA138 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F56BA92A587A3200BFA138 /* TestView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C92864162A530FAF00E85DA7 /* NaverWebToon_View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaverWebToon_View.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C92864192A530FAF00E85DA7 /* NaverWebToon_ViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverWebToon_ViewApp.swift; sourceTree = "<group>"; };
+		C928641B2A530FAF00E85DA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C928641D2A530FB000E85DA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C92864202A530FB000E85DA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C92864292A532A5200E85DA7 /* WebtoonInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebtoonInformationView.swift; sourceTree = "<group>"; };
+		C928642D2A532A9D00E85DA7 /* DayWebtoonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayWebtoonListView.swift; sourceTree = "<group>"; };
+		C9F56BA72A5876BF00BFA138 /* DaySelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySelectView.swift; sourceTree = "<group>"; };
+		C9F56BA92A587A3200BFA138 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C92864132A530FAF00E85DA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C928640D2A530FAF00E85DA7 = {
+			isa = PBXGroup;
+			children = (
+				C92864182A530FAF00E85DA7 /* NaverWebToon_View */,
+				C92864172A530FAF00E85DA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C92864172A530FAF00E85DA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C92864162A530FAF00E85DA7 /* NaverWebToon_View.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C92864182A530FAF00E85DA7 /* NaverWebToon_View */ = {
+			isa = PBXGroup;
+			children = (
+				C92864192A530FAF00E85DA7 /* NaverWebToon_ViewApp.swift */,
+				C928642D2A532A9D00E85DA7 /* DayWebtoonListView.swift */,
+				C928641B2A530FAF00E85DA7 /* ContentView.swift */,
+				C92864292A532A5200E85DA7 /* WebtoonInformationView.swift */,
+				C9F56BA72A5876BF00BFA138 /* DaySelectView.swift */,
+				C9F56BA92A587A3200BFA138 /* TestView.swift */,
+				C928641D2A530FB000E85DA7 /* Assets.xcassets */,
+				C928641F2A530FB000E85DA7 /* Preview Content */,
+			);
+			path = NaverWebToon_View;
+			sourceTree = "<group>";
+		};
+		C928641F2A530FB000E85DA7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C92864202A530FB000E85DA7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C92864152A530FAF00E85DA7 /* NaverWebToon_View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C92864242A530FB000E85DA7 /* Build configuration list for PBXNativeTarget "NaverWebToon_View" */;
+			buildPhases = (
+				C92864122A530FAF00E85DA7 /* Sources */,
+				C92864132A530FAF00E85DA7 /* Frameworks */,
+				C92864142A530FAF00E85DA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaverWebToon_View;
+			productName = NaverWebToon_View;
+			productReference = C92864162A530FAF00E85DA7 /* NaverWebToon_View.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C928640E2A530FAF00E85DA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C92864152A530FAF00E85DA7 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C92864112A530FAF00E85DA7 /* Build configuration list for PBXProject "NaverWebToon_View" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C928640D2A530FAF00E85DA7;
+			productRefGroup = C92864172A530FAF00E85DA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C92864152A530FAF00E85DA7 /* NaverWebToon_View */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C92864142A530FAF00E85DA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92864212A530FB000E85DA7 /* Preview Assets.xcassets in Resources */,
+				C928641E2A530FB000E85DA7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C92864122A530FAF00E85DA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F56BAA2A587A3200BFA138 /* TestView.swift in Sources */,
+				C928641C2A530FAF00E85DA7 /* ContentView.swift in Sources */,
+				C9F56BA82A5876BF00BFA138 /* DaySelectView.swift in Sources */,
+				C928641A2A530FAF00E85DA7 /* NaverWebToon_ViewApp.swift in Sources */,
+				C928642E2A532A9D00E85DA7 /* DayWebtoonListView.swift in Sources */,
+				C928642A2A532A5200E85DA7 /* WebtoonInformationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C92864222A530FB000E85DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C92864232A530FB000E85DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C92864252A530FB000E85DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NaverWebToon_View/Preview Content\"";
+				DEVELOPMENT_TEAM = RXYS3YJ24P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jayjo.NaverWebToon-View";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C92864262A530FB000E85DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NaverWebToon_View/Preview Content\"";
+				DEVELOPMENT_TEAM = RXYS3YJ24P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jayjo.NaverWebToon-View";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C92864112A530FAF00E85DA7 /* Build configuration list for PBXProject "NaverWebToon_View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C92864222A530FB000E85DA7 /* Debug */,
+				C92864232A530FB000E85DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C92864242A530FB000E85DA7 /* Build configuration list for PBXNativeTarget "NaverWebToon_View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C92864252A530FB000E85DA7 /* Debug */,
+				C92864262A530FB000E85DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C928640E2A530FAF00E85DA7 /* Project object */;
+}
